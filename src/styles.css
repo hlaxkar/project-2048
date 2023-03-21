@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.x2{
+    @apply bg-[#eee4da] text-[#727371];
+}
+.x4{
+    @apply bg-[#ece0ca] text-[#727371];
+}
+.x8{
+    @apply bg-[#f4b17a] text-white;
+}
+.x16{
+    @apply bg-[#f59575] text-white;
+}.x32{
+    @apply bg-[#f57c5f] text-white;
+}.x64{
+    @apply bg-[#f65d3b] text-white;
+}.x128{
+    @apply bg-[#edce71] text-white;
+}.x256{
+    @apply bg-[#edcc63] text-white;
+}
+.x512{
+    @apply bg-[#edc651] text-white;
+}.x1024{
+    @apply bg-[#eec744] text-white;
+}.x2048{
+    @apply bg-[#ecc230] text-white;
+}
+.x4096{
+    @apply bg-[#fe3d3d] text-white;
+}.x8192{
+    @apply bg-[#ff2020] text-white;
+}

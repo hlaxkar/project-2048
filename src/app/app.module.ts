@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LikesComponent } from './likes/likes.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LikesComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,
