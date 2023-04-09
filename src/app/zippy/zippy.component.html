@@ -1,1 +1,8 @@
-<p>zippy works!</p>
+<div class="zippy border transition-all">
+    <div class="heading  p-2 bg-gameboxbg select-none text-white font-bold cursor-pointer hover:opacity-80 active:bg-slate-500 transition-all" 
+    [ngClass]="{'bg-gray-400':isOpen}"
+    (click)="isOpen=!isOpen">
+{{title}}
+</div>
+    <div *ngIf="isOpen" class="body transition-all"> <ng-content></ng-content> </div>
+</div>
